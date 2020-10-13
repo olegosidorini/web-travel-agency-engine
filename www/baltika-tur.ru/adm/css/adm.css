@@ -1,0 +1,385 @@
+body
+{
+	background: #dddddd;
+	height: 100%;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	min-height: 700px;
+}
+ul
+{
+	padding-left:18px;
+	list-style: none;
+}
+
+.expandImage
+{
+	padding-right:3px;
+}
+.folderImage
+{
+  	vertical-align: middle;
+}
+.spImage
+{
+  	vertical-align: middle;
+}
+.textHolder
+{
+	height: 16px;
+	line-height: 16px;
+	padding-left: 6px;
+}
+span.dropOver
+{
+	background-color: #00c;
+	color: #fff;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 6px;
+}
+span.zag
+{
+	color: #ff0000;
+}
+#table1{
+	background-color:#dddddd;
+	width:100%;
+	height:95%;
+}
+#tree{
+	height:95%;
+	overflow:auto;
+}
+#content{
+	height:95%;
+  overflow:auto;
+  padding:  0 20px 0 20px;
+}
+#content div input[type="text"] {
+  width: 98%;
+  margin-bottom:  5px;
+}
+#content div textarea {
+  width:100%;
+  margin-bottom:  10px;
+}
+#content div input[type="button"] {
+  height: 40px;
+  background-color: #eeeeee;
+}
+#content div select{
+  width:100%; 
+  font-size:9px"
+}
+#content div hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#content div h1{
+ font-size: 14px;
+ margin-bottom: 2px;
+}
+#content div h2{
+  font-size: 12px;
+  margin-bottom: 2px;
+ }
+.tb_menu
+{
+	background-color:#ffffff; 
+	vertical-align:top;
+}
+.cidHolder
+{
+ color: blue;
+ cursor: pointer;
+ text-decoration: underline;
+}
+.folderHolder{
+	cursor: pointer;
+}
+.textHolder{
+	cursor: pointer;
+}
+.spSites
+{
+	cursor: pointer;
+}
+.spOBR
+{
+	cursor: pointer;
+}
+.spArticle
+{
+	cursor: pointer;
+}
+.spNews
+{
+	cursor: pointer;
+}
+.spbaner
+{
+	cursor: pointer;
+}
+.spmedia
+{
+	cursor: pointer;
+}
+#myMenu{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#myMenu dt{
+	line-height: 30px;
+	background-color: #999999;
+	border-top: 2px solid #888888;
+	border-bottom: 2px solid #777777;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+#myMenu dd{
+	overflow: auto;
+	padding-left: 0px;
+	margin: 0px;
+}
+#myMenu ul{
+	margin-top: 10px;
+}
+#myMenu dt.myMenuHover
+{
+	background-color: #bbbbbb;
+}
+#myMenu dt.myMenuActive
+{
+	background-color: #777777;
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #666666;
+}
+
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+
+.html .markItUpButton1 a {
+
+	background-image:url(images/paragraph.png); 
+
+}
+
+.html .markItUpButton2 a {
+
+	background-image:url(images/bold.png);
+
+}
+
+.html .markItUpButton3 a {
+
+	background-image:url(images/italic.png);
+
+}
+
+
+
+.html .markItUpButton4 a {
+
+	background-image:url(images/list-bullet.png);
+
+}
+
+.html .markItUpButton5 a {
+
+	background-image:url(images/list-numeric.png);
+
+}
+
+.html .markItUpButton6 a {
+
+	background-image:url(images/list-item.png);
+
+}
+
+.html .markItUpButton7 a {
+
+	background-image:url(images/picture.png); 
+
+}
+
+.html .markItUpButton8 a {
+
+	background-image:url(images/link.png);
+
+}
+
+.html .markItUpButton9 a {
+
+	background-image:url(images/clean.png);
+
+}
+
+.html .preview a {
+
+	background-image:url(images/preview.png);
+
+}
+
+.markItUp * {
+margin:0px;
+padding:0px;
+}
+.markItUp a:link, .markItUp a:visited {
+color:#000000;
+text-decoration:none;
+}
+.markItUp {
+border:5px solid #F5F5F5;
+margin:5px 0pt;
+width:96%;
+}
+.markItUpContainer {
+background:#FFFFFF url(images/bg-container.png) repeat-x scroll left top;
+border:1px solid #3C769D;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:11px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+padding:5px 5px 2px;
+}
+.markItUpEditor {
+background-image:url(images/bg-editor.png);
+background-repeat:no-repeat;
+border:1px solid #3C769D;
+clear:both;
+display:block;
+font-family:'Courier New',Courier,monospace;
+font-size:12px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+height:320px;
+line-height:18px;
+overflow:auto;
+padding:5px 5px 5px 35px;
+width:90%;
+}
+.markItUpPreviewFrame {
+background-color:#FFFFFF;
+border:1px solid #3C769D;
+height:300px;
+overflow:auto;
+width:99.9%;
+}
+.markItUpFooter {
+cursor:n-resize;
+width:100%;
+}
+.markItUpResizeHandle {
+background-image:url(images/handle.png);
+cursor:n-resize;
+height:5px;
+margin-left:auto;
+margin-right:auto;
+overflow:hidden;
+width:22px;
+}
+.markItUpHeader ul li {
+float:left;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+position:relative;
+}
+.markItUpHeader ul li ul {
+display:none;
+}
+.markItUpHeader ul li:hover > ul {
+display:block;
+}
+.markItUpHeader ul .markItUpDropMenu {
+background:transparent url(images/menu.png) no-repeat scroll 115% 50%;
+margin-right:5px;
+}
+.markItUpHeader ul .markItUpDropMenu li {
+margin-right:0px;
+}
+.markItUpHeader ul .markItUpSeparator {
+background-color:#CCCCCC;
+height:16px;
+margin:0pt 10px;
+overflow:hidden;
+width:1px;
+}
+.markItUpHeader ul ul .markItUpSeparator {
+height:1px;
+margin:0px;
+width:auto;
+}
+.markItUpHeader ul ul {
+background:#F5F5F5 none repeat scroll 0%;
+border:1px solid #3C769D;
+display:none;
+height:inherit;
+left:0px;
+position:absolute;
+top:18px;
+}
+.markItUpHeader ul ul li {
+border-bottom:1px solid #3C769D;
+float:none;
+}
+.markItUpHeader ul ul .markItUpDropMenu {
+background:#F5F5F5 url(images/submenu.png) no-repeat scroll 100% 50%;
+}
+.markItUpHeader ul ul ul {
+left:150px;
+position:absolute;
+top:-1px;
+}
+.markItUpHeader ul ul ul li {
+float:none;
+}
+.markItUpHeader ul a {
+background-repeat:no-repeat;
+display:block;
+height:16px;
+margin:0px;
+padding:3px;
+text-indent:-1000px;
+width:16px;
+}
+.markItUpHeader ul ul a {
+background-position:2px 50%;
+display:block;
+padding:5px 5px 5px 25px;
+text-indent:0pt;
+width:120px;
+}
+.markItUpHeader ul ul a:hover {
+background-color:#3C769D;
+color:#FFFFFF;
+}
+.html .markItUpEditor {
+background-image:url(images/bg-editor-html.png);
+}
+.markdown .markItUpEditor {
+background-image:url(images/bg-editor-markdown.png);
+}
+.textile .markItUpEditor {
+background-image:url(images/bg-editor-textile.png);
+}
+.bbcode .markItUpEditor {
+background-image:url(images/bg-editor-bbcode.png);
+}
+.wiki .markItUpEditor, .dotclear .markItUpEditor {
+background-image:url(images/bg-editor-wiki.png);
+}
